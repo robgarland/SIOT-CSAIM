@@ -85,18 +85,16 @@ def getGSIdata():
         activity = server.get_info("player","activity")
         previous = []
         while activity == "playing":
+            ts = float(format(time.time(),".2f"))
             toadd = info()
-            if toadd != []:
-                ts = float(format(time.time(),".2f"))
-                #print(ts)
-                if toadd != previous:
-                    previous = []
-                    for i in range(len(toadd)):
-                        previous.append(toadd[i])
-                    toadd.append(ts)
-                    toadd.append(session)
-                    GSIWriter.writerow(toadd)
-                    datacount += 1
+            if toadd != [] and toadd != previous:
+                previous = []
+                for i in range(len(toadd)):
+                    previous.append(toadd[i])
+                toadd.append(ts)
+                toadd.append(session)
+                GSIWriter.writerow(toadd)
+                datacount += 1
             time.sleep(0.03)    #fastest weapon fire rate is 1000rpm meaning once every 0.06sec therefore Nvyquist means rate of 0.06/2
             activity = server.get_info("player","activity")
         igts = float(server.get_info("provider","timestamp"))
@@ -115,4 +113,5 @@ def getGSIdata():
 server = GSIServer(("127.0.0.1", 3000), "S8RL9Z6Y22TYQK45JB4V8PHRJJMD9DS9")
 server.start_server()
 getGSIdata()
+time.sleep(1)
 server.shutdown()
