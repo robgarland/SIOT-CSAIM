@@ -13,6 +13,7 @@ index.py <br />
   navbar.py <br />
   apptest.py <br />
   dataanaysis.py <br />
+  getpositions.py <br />
   faceit.py <br />
 <br />
 Storage <br />
