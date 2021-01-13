@@ -6,10 +6,24 @@ The project uses an accelerometer sensor found on the front of the mouse to get 
 
 # File Structure
 
-App Files
-index.py
-  dashboard.py
-  navbar.py
-  apptest.py
-  dataanaysis.py
-  faceit.py
+App Files <br />
+repo location : main <br />
+index.py <br />
+  dashboard.py <br />
+  navbar.py <br />
+  apptest.py <br />
+  dataanaysis.py <br />
+  faceit.py <br />
+<br />
+Storage <br />
+repo location : main <br />
+acceldata2.csv <br />
+gamestatedata2.csv <br />
+<br />
+RaspberryPi <br />
+repo location : main <br />
+SIOTmain.py <br />
+<br />
+Gamestate Integration
+repo location: gsi_master/gsi
+ 
