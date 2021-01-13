@@ -33,7 +33,8 @@ gamestate.py <br />
 infogetter3.1.py <br />
 <br />
 Arduino Code <br />
-repo location: csgo-gsi-python-master/csgo-gsi-python/ <br />
+repo location: main <br />
+MMA8451withpi.ino <br />
 
 
  
