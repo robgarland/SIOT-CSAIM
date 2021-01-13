@@ -34,7 +34,7 @@ infogetter3.1.py <br />
 <br />
 Arduino Code <br />
 repo location: main <br />
-MMA8451withpi.ino <br />
+MMA8451test.ino <br />
 
 
  
