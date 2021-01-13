@@ -24,6 +24,16 @@ RaspberryPi <br />
 repo location : main <br />
 SIOTmain.py <br />
 <br />
-Gamestate Integration
-repo location: gsi_master/gsi
+Gamestate Integration <br />
+repo location: csgo-gsi-python-master/csgo-gsi-python/ <br />
+server.py <br />
+payloadparser.py <br />
+information.py <br />
+gamestate.py <br />
+infogetter3.1.py <br />
+<br />
+Arduino Code <br />
+repo location: csgo-gsi-python-master/csgo-gsi-python/ <br />
+
+
  
