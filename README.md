@@ -32,6 +32,8 @@ payloadparser.py <br />
 information.py <br />
 gamestate.py <br />
 infogetter3.1.py <br />
+repo loaction : csgo-gsi-python-master/ <br />
+gamestate_integration_GSI.cfg <br />
 <br />
 Arduino Code <br />
 repo location: main <br />
